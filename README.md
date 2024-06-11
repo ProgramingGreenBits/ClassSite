@@ -1,3 +1,6 @@
-''''
-Тук правим сайт на класа.
-''''
+```
+we = Developer(  
+    name='GreenBits', main_skills=['Python', 'C++'],  
+    additional_skills=['HTML & CSS']
+)
+```
