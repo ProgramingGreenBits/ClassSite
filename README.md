@@ -1,6 +1,3 @@
 ```
-we = Developer(  
-    name='GreenBits', main_skills=['Python', 'C++'],  
-    additional_skills=['HTML & CSS']
-)
+Тук ще разработим уеб сайт на класа.
 ```
