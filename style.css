@@ -1,0 +1,39 @@
+body {
+  background-color: rgb(126, 195, 218);
+}
+
+h1 {
+  color: chocolate;
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+button {
+  background-color: yellow;
+  color: blueviolet;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  padding: 4px;
+  width: 334px;
+  margin: 8px;
+  cursor: pointer;
+}
+
+ul {
+  padding-left: 0;
+}
+
+.page-layout {
+  display: grid;
+  grid-template-columns: 350px 10fr;
+}
+
+.menu-pages {
+  background-color: rgb(64, 83, 223);
+  display: grid;
+  grid-template-rows: 50px 50px;
+  height: 700px;
+  cursor: auto;
+}
