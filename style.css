@@ -25,6 +25,14 @@ ul {
   padding-left: 0;
 }
 
+ol {
+  margin-left: 10px;
+}
+
+li {
+  font-size: 28px;
+}
+
 .page-layout {
   display: grid;
   grid-template-columns: 350px 10fr;
@@ -35,5 +43,13 @@ ul {
   display: grid;
   grid-template-rows: 50px 50px;
   height: 700px;
+  cursor: auto;
+}
+
+.menu-pages-continue {
+  background-color: rgb(64, 83, 223);
+  display: grid;
+  grid-template-rows: 50px 50px;
+  height: 1fr;
   cursor: auto;
 }
