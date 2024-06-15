@@ -19,6 +19,32 @@ button {
   width: 334px;
   margin: 8px;
   cursor: pointer;
+  transition: 0.5s;
+}
+
+button:hover {
+  background-color: white;
+  color: red;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  padding: 4px;
+  width: 334px;
+  margin: 8px;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: orange;
+  color: rgb(43, 98, 226);
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  padding: 6px;
+  width: 320px;
+  margin: 8px;
+  margin-left: 14px;
+  cursor: pointer;
 }
 
 ul {
@@ -31,6 +57,7 @@ ol {
 
 li {
   font-size: 28px;
+  color: rgb(2, 54, 2);
 }
 
 .page-layout {
